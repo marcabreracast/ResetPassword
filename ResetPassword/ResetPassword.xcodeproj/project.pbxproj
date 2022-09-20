@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		3E7C65EB28D099ED00808575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C65EA28D099ED00808575 /* AppDelegate.swift */; };
 		3E7C65ED28D099ED00808575 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C65EC28D099ED00808575 /* SceneDelegate.swift */; };
-		3E7C65EF28D099ED00808575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C65EE28D099ED00808575 /* ViewController.swift */; };
 		3E7C65F228D099ED00808575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7C65F028D099ED00808575 /* Main.storyboard */; };
 		3E7C65F428D099EF00808575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7C65F328D099EF00808575 /* Assets.xcassets */; };
 		3E7C65F728D099EF00808575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7C65F528D099EF00808575 /* LaunchScreen.storyboard */; };
 		3E7C660228D099EF00808575 /* ResetPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C660128D099EF00808575 /* ResetPasswordTests.swift */; };
 		3E7C660C28D099EF00808575 /* ResetPasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C660B28D099EF00808575 /* ResetPasswordUITests.swift */; };
 		3E7C660E28D099EF00808575 /* ResetPasswordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C660D28D099EF00808575 /* ResetPasswordUITestsLaunchTests.swift */; };
+		3E7C661C28D0BAD000808575 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 3E7C661B28D0BAD000808575 /* Realm */; };
+		3E7C661E28D0BAD000808575 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3E7C661D28D0BAD000808575 /* RealmSwift */; };
+		3EBF456E28D0C984001515E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF456D28D0C984001515E8 /* LoginViewController.swift */; };
+		3ED218EE28D878F70011CB9D /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED218ED28D878F70011CB9D /* ResetPasswordViewController.swift */; };
+		3ED218F028D8F30B0011CB9D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED218EF28D8F30B0011CB9D /* UIViewController+Extension.swift */; };
+		3ED218F228D907620011CB9D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED218F128D907620011CB9D /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		3E7C65E728D099ED00808575 /* ResetPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResetPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7C65EA28D099ED00808575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E7C65EC28D099ED00808575 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E7C65EE28D099ED00808575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E7C65F128D099ED00808575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E7C65F328D099EF00808575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7C65F628D099EF00808575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,11 @@
 		3E7C660728D099EF00808575 /* ResetPasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResetPasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7C660B28D099EF00808575 /* ResetPasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordUITests.swift; sourceTree = "<group>"; };
 		3E7C660D28D099EF00808575 /* ResetPasswordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EBF456D28D0C984001515E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3ED218EC28D86C790011CB9D /* ResetPassword.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResetPassword.entitlements; sourceTree = "<group>"; };
+		3ED218ED28D878F70011CB9D /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		3ED218EF28D8F30B0011CB9D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		3ED218F128D907620011CB9D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7C661E28D0BAD000808575 /* RealmSwift in Frameworks */,
+				3E7C661C28D0BAD000808575 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +110,17 @@
 		3E7C65E928D099ED00808575 /* ResetPassword */ = {
 			isa = PBXGroup;
 			children = (
+				3ED218EC28D86C790011CB9D /* ResetPassword.entitlements */,
 				3E7C65EA28D099ED00808575 /* AppDelegate.swift */,
 				3E7C65EC28D099ED00808575 /* SceneDelegate.swift */,
-				3E7C65EE28D099ED00808575 /* ViewController.swift */,
 				3E7C65F028D099ED00808575 /* Main.storyboard */,
 				3E7C65F328D099EF00808575 /* Assets.xcassets */,
 				3E7C65F528D099EF00808575 /* LaunchScreen.storyboard */,
 				3E7C65F828D099EF00808575 /* Info.plist */,
+				3EBF456D28D0C984001515E8 /* LoginViewController.swift */,
+				3ED218ED28D878F70011CB9D /* ResetPasswordViewController.swift */,
+				3ED218EF28D8F30B0011CB9D /* UIViewController+Extension.swift */,
+				3ED218F128D907620011CB9D /* MainViewController.swift */,
 			);
 			path = ResetPassword;
 			sourceTree = "<group>";
@@ -143,6 +158,10 @@
 			dependencies = (
 			);
 			name = ResetPassword;
+			packageProductDependencies = (
+				3E7C661B28D0BAD000808575 /* Realm */,
+				3E7C661D28D0BAD000808575 /* RealmSwift */,
+			);
 			productName = ResetPassword;
 			productReference = 3E7C65E728D099ED00808575 /* ResetPassword.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 3E7C65DE28D099ED00808575;
+			packageReferences = (
+				3E7C661A28D0BAD000808575 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 3E7C65E828D099ED00808575 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7C65EF28D099ED00808575 /* ViewController.swift in Sources */,
+				3EBF456E28D0C984001515E8 /* LoginViewController.swift in Sources */,
 				3E7C65EB28D099ED00808575 /* AppDelegate.swift in Sources */,
 				3E7C65ED28D099ED00808575 /* SceneDelegate.swift in Sources */,
+				3ED218F228D907620011CB9D /* MainViewController.swift in Sources */,
+				3ED218F028D8F30B0011CB9D /* UIViewController+Extension.swift in Sources */,
+				3ED218EE28D878F70011CB9D /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ResetPassword/ResetPassword.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QX5CR2FTN2;
@@ -450,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcabrera.ResetPassword;
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.marcabrera.ResetPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ResetPassword/ResetPassword.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QX5CR2FTN2;
@@ -478,7 +505,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcabrera.ResetPassword;
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.marcabrera.ResetPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -602,6 +629,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E7C661A28D0BAD000808575 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E7C661B28D0BAD000808575 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E7C661A28D0BAD000808575 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		3E7C661D28D0BAD000808575 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E7C661A28D0BAD000808575 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3E7C65DF28D099ED00808575 /* Project object */;
 }
